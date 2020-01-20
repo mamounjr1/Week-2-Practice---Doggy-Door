@@ -21,6 +21,7 @@ public class Remote {
         this.door= door;
     }
     
+    //Button method
     public void pressButton(){
         
         System.out.println("Pressing remote control button");
