@@ -3,6 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  * Programmer: Mamoun
+ *  Program: Doggy Door
  */
 package doggydoor;
 
@@ -20,6 +21,8 @@ public class DoggyDoor {
     DogDoor door = new DogDoor();
     Remote remote = new Remote(door);
     
+    //Displaying statements
+        
     System.out.println("Fido barks to go outside");
     remote.pressButton();
     System.out.println("\n Fido has gone outside");
